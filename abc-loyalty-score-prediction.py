@@ -16,4 +16,4 @@ to_be_scored.dropna(how="any", inplace=True)
 
 # Make predictions
 loyalty_predictions = regressor.predict(to_be_scored)
-loyalty_predictions.head()
+print(loyalty_predictions)
