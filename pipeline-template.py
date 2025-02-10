@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 
 # Import data
 
-df = pd.read_csv("/Data/pipeline_data.csv")
+df = pd.read_csv("Data/pipeline_data.csv")
 
 # Split into input (X) and output (y)
 
@@ -56,7 +56,7 @@ categorical_transformer = Pipeline(
 # Preprocessing Pipeline
 
 preprocessing_pipeline = ColumnTransformer(
-    transformer=[
+    transformers=[
         ("numeric", numeric_transformer, numeric_features),
         ("categorical", categorical_transformer, categorical_features),
     ]
@@ -88,4 +88,4 @@ accuracy = accuracy_score(y_test, y_pred_class)
 ###################################
 
 
-joblib.dump(clf, "/Data/Model/classification_model.joblib")
+joblib.dump(clf, "Data/Model/classification_model.joblib")

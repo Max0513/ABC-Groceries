@@ -10,7 +10,7 @@ import numpy as np
 
 # import Pipeline
 
-clf = joblib.load("/Data/Model/classification-model.joblib")
+clf = joblib.load("Data/Model/classification_model.joblib")
 
 # Create new data
 
@@ -22,4 +22,4 @@ new_data = pd.DataFrame(
     }
 )
 
-clf.predict(new_data)
+print(clf.predict(new_data))
