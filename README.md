@@ -1,8 +1,9 @@
-# Work in progress
-
 Directory containing the code for the projects regarding ABC-Grocery, done as part of the Data Science Infinity
 
 ## Assessing Campaign Performance Using Chi-Square Test For Independence
+
+Full Portfolio Presentation:
+https://max0513.github.io/2025/01/30/AB-Testing-for-ABC-Groceries.html
 
 ### Context
 
@@ -13,6 +14,9 @@ For the campaign promoting the club, customers were put randomly into three grou
 The client knows that customers who were contacted, signed up for the Delivery Club at a far higher rate than the control group, but now want to understand if there is a significant difference in signup rate between the cheap mailer and the expensive mailer. This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 
 ## Predicting Customer Loyalty Using ML
+
+Full Portfolio Presentation:
+https://max0513.github.io/2025/01/30/Customer-loyalty-score-Regression.html
 
 ### Context
 
